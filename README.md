@@ -1,6 +1,6 @@
 # GHIA THERMA
 
-**GHIA THERMA** is a conceptual/research-stage reversible thermoacoustic thermal platform. The repository is the engineering record for the project: physical logic, mathematics, thermodynamic calculations, acoustic concepts, simulation assumptions/results, failure-analysis history, prototype strategy, safety, economics, IP context, and the project's visual/diagram asset record.
+**GHIA THERMA** is a conceptual/research-stage reversible thermoacoustic thermal platform. This repository is the engineering record for the project: physical logic, mathematics, thermodynamic calculations, acoustic concepts, simulation assumptions/results, failure-analysis history, prototype strategy, safety, economics, IP context, and the project's visual/diagram asset record.
 
 ## 🔒 THERMA 3.5 architecture lock
 
@@ -64,23 +64,42 @@ The project has also explored a conceptual **20 °C → 80 °C water-heating cas
 ## Source baseline
 The supplied v1 dossier describes THERMA as conceptual/pre-prototype and states that exact geometry, THERMA-specific performance, material life, pressure integrity, certification and commercial readiness remain unproven. It also distinguishes established science, calculations, project-model outputs and hardware-only facts. fileciteturn2file0L13-L29
 
-## 100-file documentation system
-The repository now uses a planned **100-file engineering record**. The index is in `docs/100-file-index.md` and points to the full documentation map across foundations, physics, thermal systems, simulation, energy sources, economics, safety, materials, prototype validation, applications, IP, visual assets and the master research record.
+## ✅ Closed documentation set — 20 core files
 
-### Documentation map
-- `docs/001-010` — identity, evidence discipline, problem, thermoacoustic foundations, heat-engine/refrigeration/heating principles, reversible operation, architecture and glossary
-- `docs/011-020` — working gas, pressure, resonator, impedance, regenerator, boundary layers, heat exchangers, streaming and secondary loops
-- `docs/021-030` — source conditioning, rejection, cooling/heating loops, pressure/safety boundary, sensors, controls, reversible transitions and PFD/P&ID logic
-- `docs/031-040` — equations, 20→80 °C calculation, cold-room model, 3.3/3.4/3.5 evolution, 24-hour/one-year simulations, adversarial testing and simulation audit
-- `docs/041-050` — energy-source pathways, waste heat, economics, comparison cases, industrial networks and environmental accounting
-- `docs/051-060` — deeper acoustic engineering and losses
-- `docs/061-070` — deeper thermal engineering, heat-exchanger methodology and energy balances
-- `docs/071-080` — materials, fatigue, leakage, overtemperature, emergency protection and lifecycle
-- `docs/081-090` — prototype, BOM, instrumentation, testing, endurance and model-to-hardware correlation
-- `docs/091-100` — applications, IP, portfolio, history, image/diagram index, audit ledger and final master record
+The documentation target is now **20 deep technical files**, not 100 mandatory files. The old 100-file planning document is retained only as historical planning context; it is **not the current completion target**.
+
+### 001–005 — Foundation
+- `docs/001-project-identity-and-scope.md`
+- `docs/002-evidence-hierarchy-and-source-discipline.md`
+- `docs/003-problem-statement.md`
+- `docs/004-thermoacoustic-fundamentals.md`
+- `docs/005-heat-engine-principle.md`
+
+### 006–010 — Thermal modes and architecture
+- `docs/006-refrigeration-principle.md`
+- `docs/007-heat-pump-heating-principle.md`
+- `docs/008-reversible-operation.md`
+- `docs/009-architecture-overview.md`
+- `docs/010-terminology-and-glossary.md`
+
+### 011–015 — Core hardware and thermal/acoustic engineering
+- `docs/011-working-gas-candidates.md`
+- `docs/012-pressure-and-containment.md`
+- `docs/013-acoustic-resonator.md`
+- `docs/014-inertance-compliance-network.md`
+- `docs/015-regenerator-physics.md`
+
+### 016–020 — Validation, safety, economics and records
+- `docs/016-thermal-penetration-and-boundary-layers.md`
+- `docs/017-hot-heat-exchanger.md`
+- `docs/018-cold-heat-exchanger.md`
+- `docs/019-acoustic-streaming-and-nonlinear-losses.md`
+- `docs/020-master-validation-ip-visual-audit.md`
+
+**Each core file is intended to be a substantive engineering chapter.** The current target is meaningful depth, not an arbitrary line count; no file is padded to hit a number.
 
 ## Visual assets
-The project generated approximately 35 standalone visual artifacts during the first illustration pass. These are treated as **communication assets**, not authoritative fabrication drawings. Several late images drifted into piston/Stirling-like architecture; those are excluded from THERMA 3.5 architecture claims and should be marked historical/invalid/replacement candidates in the final asset index rather than silently reused.
+The project generated approximately 35 standalone visual artifacts during the first illustration pass. These are treated as **communication assets**, not authoritative fabrication drawings. Several late images drifted into piston/Stirling-like architecture; those are excluded from THERMA 3.5 architecture claims and are documented as historical/invalid/replacement candidates rather than silently reused.
 
 ## Research workflow
 
@@ -116,3 +135,6 @@ THERMA is **not** currently presented as a certified production refrigerator/hea
 
 ## Repository purpose
 This repository is the source-of-truth text record for the project's engineering reasoning. Supporting images, calculations, datasets, CAD, simulation code and future prototype measurements should be linked to the appropriate numbered documentation files rather than inserted without evidence labels.
+
+## Documentation close-out
+The 20-file documentation set is the current baseline. Future work should focus on exact-geometry modeling, reproducible simulation, CAD, test instrumentation, prototype construction, measured datasets, prior-art/claim review and experimentally validated updates rather than adding filler documentation files.
